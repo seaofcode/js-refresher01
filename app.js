@@ -68,3 +68,18 @@
 
 // Arrays, Functions, and Objects
 // Arrays - [], 0, index based
+
+// const friend1 = 'anna';
+// const friend2 = 'bob';
+// const friend3 = 'jeff';
+// const friend4 = 'sara';
+
+// const friends = ['john', 'peter', 'bob', 'susy', 45, undefined, null];
+
+// let bestFriend = friends[2];
+// friends[4] = 'geno';
+
+// console.log(friends);
+// console.log(bestFriend);
+// console.log(friends[1]);
+// console.log(friends[4]);
