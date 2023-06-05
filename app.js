@@ -83,3 +83,67 @@
 // console.log(bestFriend);
 // console.log(friends[1]);
 // console.log(friends[4]);
+
+// Functions - declare, invoke
+
+// function hello() {
+//   // logic
+//   console.log('hello there bob');
+//   console.log('hello there sara');
+//   console.log('hello there jinks');
+// }
+
+// hello();
+
+// Function parameters
+// when declare/define
+// placeholders, local vars
+// arguments - when invoke/call/run
+// use vars/values, multiple params, undefined
+
+// function greet(name) {
+//   console.log('Hello there ' + name);
+// }
+
+// greet('Bob');
+// greet('Anna');
+// greet('Jinks');
+
+// Function Return
+// example, 1 inch = 2.54cm
+
+// const wallHeight = 80;
+
+// function calculate(value) {
+//   const newValue = value * 2.54;
+//   return newValue;
+//   return value * 2.54; //short hand
+// }
+
+// const width = calculate(100);
+// const height = calculate(wallHeight);
+
+// const dimensions = [width, height];
+// console.log(dimensions);
+// ---------------------------------------
+// Function Expression
+// expressions - another way to define a function
+// creat a variable, assign to FUNCTION not value, use var
+// diff - hoisting, use - arrow func, libraries
+
+// function definition/declaration
+function addValues(num1, num2) {
+  return num1 + num2;
+}
+
+const firstValue = addValues(3, 4);
+const secondValue = addValues(12, 34);
+
+// function expression
+const add = function (num1, num2) {
+  return num1 + num2;
+};
+
+const thirdValue = add(5, 6);
+const values = [firstValue, secondValue, thirdValue];
+console.log(values);
