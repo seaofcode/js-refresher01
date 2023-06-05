@@ -30,3 +30,41 @@
 // console.log(random2);
 
 // console.log(amount);
+
+//----------------------------
+// Implicit Type Conversion
+
+// let number3 = '10';
+// let number4 = '23';
+
+// const result2 = number3 - number4;
+// console.log(result2);
+
+// Data Types - 7 total
+// Primitive - String, Number, Boolean, Null, Undefined, Symbol(ES6)
+
+// Object - Arrays, Functions, Objects
+
+// typeof - operator (typeof variable) (typeof value)
+
+//  String
+// const text = 'some text';
+//  Number
+// const number = 45;
+//  Boolean
+// let value1 = true;
+// let value2 = false;
+//  Null
+// const result = null;
+//  Undefined
+// let name;
+
+// console.log(typeof text);
+// console.log(typeof number);
+// console.log(typeof value1);
+// console.log(typeof value2);
+// console.log(typeof result);
+// console.log(typeof name);
+
+// Arrays, Functions, and Objects
+// Arrays - [], 0, index based
